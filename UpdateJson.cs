@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace ONS.MontadorDessem.Build.Utilities
 {
-    public class LoadParameters : Task
+    public class UpdateJson : Task
     {
         public string InputFileName { get; set; }
         public string OutputFileName { get; set; }

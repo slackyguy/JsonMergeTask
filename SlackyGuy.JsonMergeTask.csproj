@@ -7,8 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="build\LoadParameters.props" PackagePath="build\" />
-    <Content Include="buildMultiTargeting\LoadParameters.props" PackagePath="buildMultiTargeting\" />
+    <Content Include="build\UpdateJson.props" PackagePath="build\" />
+    <Content Include="buildMultiTargeting\UpdateJson.props" PackagePath="buildMultiTargeting\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -17,7 +17,4 @@
     <PackageReference Update="@(PackageReference)" PrivateAssets="All" />
   </ItemGroup>
 
-  <!--<Target Name="PublishPackage" BeforeTargets="build">
-    <Exec Command="dotnet pack ONS.MontadorDessem.Build.Utilities.csproj \-\-output ./ \-\-configuration Release"/>
-  </Target>-->
 </Project>
