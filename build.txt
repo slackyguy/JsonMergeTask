@@ -1,0 +1,1 @@
+dotnet pack SlackyGuy.JsonMergeTask.csproj --output .\ --configuration Release
